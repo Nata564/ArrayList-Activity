@@ -1,0 +1,29 @@
+CLASES ABSTRACTAS:
+-es una clase que no se puede instanciar(crear objetos) pero si heredar
+-puede tener constructores, genéricos pero no tiene operaciones
+  - define el método pero no que hacen y las hijas son las que implementan(ponerle que es lo que hace) el método (sobreescribiendolo en cada clase)
+- "abstract" en el diagrama todo lo que este en cursiva es abstracto
+principios SOLID
+MODIFICADORES
+palabras reservadas que controlan quien puede acceder y desde donde
+VISIBILIDAD: atributos
+-public: cualquier parte
+-private: solo la propia clase, se se quiere usar desde otra se usa un get o set.
+-protected: se usa en subclases, aunque esten en otro paquete aun lo puede ver y lo que esta dentro del mismo paquete
+-friendly(no tiene palabra reservada, ósea no se pone palabra y java lo cataloga asi): todos lo puede ver en el mismo paquete
+PAQUETE: carpeta que agrupa clases iguales
+-package
+import: trae o indica el paquete al que se quiere referenciar
+
+ARRAYLIST
+importa ja.util.ArrayList
+Integer=int : es una clase pq contiene  métodos para enteros
+-Trabajo con tipo clase no primitivos (int,double)/se ponen la primera en mayuscula
+declaracion:
+ArrayList<String> nombres = new ArrayList<>();
+ADD: si se agrega uno se corren los demas hacia la siguiente posicion
+ frutas.add("Mango");
+    frutas.add("Banano");
+    frutas.add("Naranja");
+    frutas.add(1, "fresa");
+SET: con el set se reemplaza y se quita el q estaba en esa posicion 
