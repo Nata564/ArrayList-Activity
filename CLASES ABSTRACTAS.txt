@@ -27,3 +27,13 @@ ADD: si se agrega uno se corren los demas hacia la siguiente posicion
     frutas.add("Naranja");
     frutas.add(1, "fresa");
 SET: con el set se reemplaza y se quita el q estaba en esa posicion 
+
+EXCEPCIONES: son errores que pasan durante el tiempo de ejecución (cuando se interactúa con el código)
+crash/el programa paro, ocurrió un error
+try/catch:funciona tipo if else
+-try: se pone el error que podría ocurrir, SI ese error sucede SIGUE al catch
+-catch: captura el error en una variable e, y manda un mensaje de error dejando q el programa siga ejecutándose(no detiene el programa)
+-finally: (se ejecuta siempre, haya error o no/opcional de ponerlo)
+
+parseInt: método que convierte una variable a otro tipo string-int
+
