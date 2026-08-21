@@ -18,5 +18,6 @@ public class Estudiante {
     public String toString() {
         return nombre + " - Nota: " + nota;
     }
+    
 
 }
